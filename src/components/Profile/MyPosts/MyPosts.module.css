@@ -1,0 +1,21 @@
+.textarea{
+    display:block;
+    padding: 10px;
+    outline: none;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.buttons{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn{
+    border-radius: 10px;
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    background: #27ef70;
+}

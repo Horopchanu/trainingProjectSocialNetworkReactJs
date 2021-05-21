@@ -1,0 +1,25 @@
+.nav {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 38, 121, 1) 34%,
+    rgba(8, 49, 129, 1) 59%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  grid-area: nav;
+  padding: 10px;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav__list__item:last-child {
+  margin-top: 20px;
+}
+.links {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.active {
+  color: rgb(244, 255, 95);
+}

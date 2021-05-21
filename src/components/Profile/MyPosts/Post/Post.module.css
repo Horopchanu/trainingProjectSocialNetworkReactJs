@@ -1,0 +1,14 @@
+.post{
+    padding: 10px;
+    font-size: 18px;
+    color: darkred;
+    font-weight: 700;
+}
+.post__img{
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+}
+.post__btn{
+    background: green;
+}

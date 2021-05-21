@@ -1,0 +1,9 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.messages{
+    color: rgb(7, 54, 68);
+    width: 50%;
+    font-size: 25px;
+}

@@ -1,0 +1,11 @@
+.dialogs__items{
+    font-size: 25px;
+    color: rgb(209, 0, 139);
+}
+.item{
+    margin-bottom: 20px;
+    display: block;
+}
+.active{
+    color: rgb(244, 255, 95)
+}

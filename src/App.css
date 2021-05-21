@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 3fr 11fr;
+  grid-template-areas:
+    "header header"
+    "nav main";
+  grid-gap: 10px;
+}
+
+.main {
+  grid-area: main;
+  background-color: aquamarine;
+  padding: 10px;
+}
